@@ -1,0 +1,8 @@
+#Find the maximum no. in the list.
+a = 0
+list = [45,65,75,85,78,98,32,25,25,12]
+
+for i in range(10):
+    if a < list[i]:
+        a = list[i]
+        print(a)
